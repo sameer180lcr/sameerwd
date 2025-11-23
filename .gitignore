@@ -1,0 +1,28 @@
+# Ignore node modules
+node_modules/
+
+# Ignore log files
+*.log
+npm-debug.log*
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore temp files
+*.tmp
+.cache/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Keep downloads folder but ignore contents except .gitkeep
+downloads/*
+!downloads/.gitkeep
+
+# Environment files
+.env
+.env.local

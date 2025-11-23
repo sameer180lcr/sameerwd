@@ -1,0 +1,19 @@
+# Downloads Directory
+
+Place the AI Browser installer here after building.
+
+The installer should be named: `AI-Browser-Setup.exe`
+
+## How to Build
+
+From the main project directory:
+
+```bash
+npm run build
+```
+
+Then copy the installer:
+
+```bash
+Copy-Item "dist\AI Browser Setup *.exe" "website\downloads\AI-Browser-Setup.exe"
+```
